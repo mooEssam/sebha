@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#853A34"
+    tools:context=".Masbaha">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/po"
+        >
+    <TextView
+        android:layout_weight="1"
+        android:textColor="#F7F6FA"
+        android:layout_marginTop="25dp"
+        android:id="@+id/sophan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="سبحان الله"
+        android:background="@drawable/textback"
+        android:textSize="25dp"
+        android:padding="12dp"
+        android:layout_marginRight="5dp"
+        />
+    <TextView
+        android:layout_weight="1"
+        android:id="@+id/hamd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="الحمد الله"
+        android:layout_toRightOf="@+id/sophan"
+        android:background="@drawable/textback"
+        android:textSize="25dp"
+        android:padding="12dp"
+        android:textColor="#F7F6FA"
+        android:layout_marginTop="25dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"
+        />
+    <TextView
+        android:layout_weight="1"
+        android:textColor="#F7F6FA"
+        android:id="@+id/akpar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="الله أكبر"
+        android:background="@drawable/textback"
+        android:layout_toRightOf="@+id/hamd"
+        android:textSize="25dp"
+        android:padding="12dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="5dp"
+        />
+    </LinearLayout>
+    <EditText
+        android:background="@drawable/textback"
+        android:padding="12dp"
+        android:id="@+id/zekr"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/po"
+        android:hint="أكتب الذكر هنا اذا كنت تنساه"
+        android:textSize="25dp"
+        android:layout_margin="10dp"
+        android:textColorHint="@color/colorPrimary"
+        />
+    <TextView
+        android:id="@+id/result"
+        android:textColor="#F7F6FA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:text="0"
+        android:background="@drawable/textback"
+        android:textAlignment="center"
+        android:textSize="50dp"
+        android:gravity="center_horizontal" />
+
+    <ImageButton
+        android:id="@+id/plus"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="520dp"
+        android:src="@drawable/ic_exposure_plus_1_black_24dp"
+        android:background="@drawable/textback"
+
+        />
+    <ImageButton
+        android:id="@+id/refine"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="580dp"
+        android:src="@drawable/ret"
+        android:layout_toLeftOf="@+id/plus"
+        android:layout_marginRight="9dp"
+        android:background="@drawable/textback"
+        />
+
+
+</RelativeLayout>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/b"
+    tools:context=".MainActivity">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="تسيبح الصلاة"
+        android:id="@+id/salah"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/textback"
+        android:textSize="30dp"
+        android:padding="14dp"
+        android:textColor="#3B0E8C"
+        android:layout_marginTop="230dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="تسيبح خاص"
+        android:id="@+id/spe"
+       android:layout_below="@+id/salah"
+        android:background="@drawable/textback"
+        android:layout_centerHorizontal="true"
+        android:textSize="30dp"
+        android:padding="14dp"
+        android:layout_marginTop="12dp"
+        android:textColor="#3B0E8C"
+        />
+
+
+
+</RelativeLayout>
