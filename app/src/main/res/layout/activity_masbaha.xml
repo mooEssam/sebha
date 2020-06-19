@@ -5,7 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#853A34"
+    android:background="@drawable/kaa"
     tools:context=".Masbaha">
     <LinearLayout
         android:layout_width="match_parent"
@@ -15,7 +15,7 @@
         >
     <TextView
         android:layout_weight="1"
-        android:textColor="#F7F6FA"
+        android:textColor="#0E0E0E"
         android:layout_marginTop="25dp"
         android:id="@+id/sophan"
         android:layout_width="wrap_content"
@@ -36,14 +36,14 @@
         android:background="@drawable/textback"
         android:textSize="25dp"
         android:padding="12dp"
-        android:textColor="#F7F6FA"
+        android:textColor="#0E0E0E"
         android:layout_marginTop="25dp"
         android:layout_marginRight="5dp"
         android:layout_marginLeft="5dp"
         />
     <TextView
         android:layout_weight="1"
-        android:textColor="#F7F6FA"
+        android:textColor="#0E0E0E"
         android:id="@+id/akpar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -86,8 +86,9 @@
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="520dp"
-        android:src="@drawable/ic_exposure_plus_1_black_24dp"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="15dp"
+        android:src="@drawable/ic_navigation_black_24dp"
         android:background="@drawable/textback"
 
         />
@@ -96,11 +97,24 @@
         android:layout_width="75dp"
         android:layout_height="75dp"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="580dp"
-        android:src="@drawable/ret"
+        android:layout_alignParentBottom="true"
+        android:src="@drawable/ic_loop_black_24dp"
         android:layout_toLeftOf="@+id/plus"
         android:layout_marginRight="9dp"
         android:background="@drawable/textback"
+        android:layout_marginBottom="8dp"
+        />
+    <ImageButton
+        android:id="@+id/rusem"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:src="@drawable/ic_history_black_24dp"
+        android:layout_toRightOf="@+id/plus"
+        android:layout_marginRight="9dp"
+        android:background="@drawable/textback"
+        android:layout_marginBottom="8dp"
         />
 
 
